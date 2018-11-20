@@ -1,12 +1,13 @@
-<xml>
-<sys_app>
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-11-20 07:09:31">
+<sys_app action="INSERT_OR_UPDATE">
 <active>true</active>
 <enforce_license>none</enforce_license>
 <js_level>helsinki_es5</js_level>
 <licensable>true</licensable>
 <license_model>none</license_model>
 <logo/>
-<menu/>
+<menu display_value=""/>
 <name>NeedIT-Kings</name>
 <private>false</private>
 <restrict_table_access>false</restrict_table_access>
@@ -27,9 +28,9 @@
 <sys_updated_on>2018-11-20 06:49:07</sys_updated_on>
 <template/>
 <trackable>true</trackable>
-<user_role/>
+<user_role display_value=""/>
 <vendor/>
 <vendor_prefix/>
 <version>1.0.0</version>
 </sys_app>
-</xml>
+</unload>
