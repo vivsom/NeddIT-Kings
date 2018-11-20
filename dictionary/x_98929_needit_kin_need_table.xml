@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Need_table" max_length="40" name="x_98929_needit_kin_need_table" type="collection"/>
+</database>
