@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Practice debugging techniques in ServiceNow.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt Practice Debugging</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	try{
+		var x = 7;
+		jslog("This message is from jslog().");
+		jslog("The value of x = " + x);
+		jslog("The NeedIt State value = " + g_form.getValue('state'));
+		jslog("The currently logged in user is " + g_user.getFullName() + ".");
+	}
+	catch(err){
+		jslog('A JavaScript runtime error occurred: ' + err.message);
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-28 09:09:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>65d9a2eddb022300656a9fd2ca96197a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>NeedIt Practice Debugging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
+        <sys_update_name>sys_script_client_65d9a2eddb022300656a9fd2ca96197a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 09:36:22</sys_updated_on>
+        <table>x_98929_needit_kin_need_table</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

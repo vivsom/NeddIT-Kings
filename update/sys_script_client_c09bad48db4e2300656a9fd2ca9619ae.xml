@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>To default the requested for to loggedin user for the new record only.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt Set Requested for</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  //Check to see if the form is for a new record.  If it is a new record, 
+  //set the Requested for value to the currently logged in user.
+
+    if(g_form.isNewRecord()){
+        g_form.setValue('u_requeste_for',g_user.userID);
+    }
+	
+	var x = 7;
+ 	jslog("ME:  This message is from jslog().");   
+ 	jslog("ME:  The value of x = " + x); 
+ 	jslog("ME:  The NeedIt State value = " + g_form.getValue('state'));
+ 	jslog("ME:  The currently logged in user is " + g_user.getFullName() + ".");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 12:46:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c09bad48db4e2300656a9fd2ca9619ae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
+        <sys_update_name>sys_script_client_c09bad48db4e2300656a9fd2ca9619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 13:20:12</sys_updated_on>
+        <table>x_98929_needit_kin_need_table</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

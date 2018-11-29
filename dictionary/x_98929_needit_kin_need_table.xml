@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Need_table" max_length="40" name="x_98929_needit_kin_need_table" type="collection"/>
+    <element extends="task" label="NeedIT" max_length="40" name="x_98929_needit_kin_need_table" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element display="true" label="Requested for" mandatory="true" max_length="32" name="u_requeste_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element label="Human Resource" sequence="0" value="hr"/>
+                <element label="Facilities" sequence="1" value="facilities"/>
+                <element label="Legal" sequence="2" value="legal"/>
+                <element label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" max_length="40" name="u_what_needed" type="string">
+            <choice/>
+        </element>
+    </element>
 </database>

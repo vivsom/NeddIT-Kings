@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="NeedIT">cef40dc3db712300656a9fd2ca9619bd</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>Create new record for NeedIT App</hint>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create new</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_98929_needit_kin_need_table</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 09:15:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>163ef4ccdbca2300656a9fd2ca9619e6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create new</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
+        <sys_update_name>sys_app_module_163ef4ccdbca2300656a9fd2ca9619e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 10:16:09</sys_updated_on>
+        <timeline_page/>
+        <title>Create new</title>
+        <uncancelable>false</uncancelable>
+        <view_name>user</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>
