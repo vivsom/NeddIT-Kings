@@ -5,13 +5,13 @@
             <element>short_description</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-20 07:49:44</sys_created_on>
-            <sys_id>304e854bdb712300656a9fd2ca96198b</sys_id>
+            <sys_created_on>2018-12-11 08:08:00</sys_created_on>
+            <sys_id>0ddb9df1db522300656a9fd2ca9619b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Subject &amp; Explanation" display_value="Subject &amp; Explanation" name="x_98929_needit_kin_need_table" sys_domain="global" view="Default view">784e854bdb712300656a9fd2ca961950</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-20 07:49:44</sys_updated_on>
+            <sys_updated_on>2018-12-11 08:08:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,27 @@
             <element>description</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-20 07:49:44</sys_created_on>
-            <sys_id>b04e854bdb712300656a9fd2ca96198b</sys_id>
+            <sys_created_on>2018-12-11 08:08:00</sys_created_on>
+            <sys_id>81db9df1db522300656a9fd2ca9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Subject &amp; Explanation" display_value="Subject &amp; Explanation" name="x_98929_needit_kin_need_table" sys_domain="global" view="Default view">784e854bdb712300656a9fd2ca961950</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-20 07:49:44</sys_updated_on>
+            <sys_updated_on>2018-12-11 08:08:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_when_needed</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-11 08:08:00</sys_created_on>
+            <sys_id>05db9df1db522300656a9fd2ca9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Subject &amp; Explanation" display_value="Subject &amp; Explanation" name="x_98929_needit_kin_need_table" sys_domain="global" view="Default view">784e854bdb712300656a9fd2ca961950</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-11 08:08:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

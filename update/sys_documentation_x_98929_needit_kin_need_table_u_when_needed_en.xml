@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_when_needed" label="When needed" language="en" table="x_98929_needit_kin_need_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_when_needed</element>
+            <help/>
+            <hint/>
+            <label>When needed</label>
+            <language>en</language>
+            <name>x_98929_needit_kin_need_table</name>
+            <plural>When needed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-11 07:55:30</sys_created_on>
+            <sys_id>06f851b1db522300656a9fd2ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>When needed</sys_name>
+            <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
+            <sys_update_name>sys_documentation_x_98929_needit_kin_need_table_u_when_needed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-11 07:55:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

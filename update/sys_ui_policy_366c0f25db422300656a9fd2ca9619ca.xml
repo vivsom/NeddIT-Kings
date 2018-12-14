@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <conditions table="x_98929_needit_kin_need_table">short_descriptionSTARTSWITHshort^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="short"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
@@ -28,7 +28,7 @@ alert("The Condition Tested True");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>366c0f25db422300656a9fd2ca9619ca</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>one</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
@@ -36,7 +36,7 @@ alert("The Condition Tested True");
         <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
         <sys_update_name>sys_ui_policy_366c0f25db422300656a9fd2ca9619ca</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-28 13:10:58</sys_updated_on>
+        <sys_updated_on>2018-12-12 11:47:25</sys_updated_on>
         <table>x_98929_needit_kin_need_table</table>
         <ui_type>0</ui_type>
         <view/>

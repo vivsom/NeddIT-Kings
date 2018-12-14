@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>163ef4ccdbca2300656a9fd2ca9619e6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Create new</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
@@ -34,11 +34,11 @@
         <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
         <sys_update_name>sys_app_module_163ef4ccdbca2300656a9fd2ca9619e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 10:16:09</sys_updated_on>
+        <sys_updated_on>2018-12-14 09:34:58</sys_updated_on>
         <timeline_page/>
         <title>Create new</title>
         <uncancelable>false</uncancelable>
-        <view_name>user</view_name>
+        <view_name/>
         <window_name/>
     </sys_app_module>
 </record_update>

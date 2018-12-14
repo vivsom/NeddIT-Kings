@@ -41,7 +41,6 @@ g_form.addOption('u_what_needed','facilities2','Facilities 2');
 if(newValue == 'legal'){
 g_form.addOption('u_what_needed','legal1','Legal 1');
 g_form.addOption('u_what_needed','legal2','Legal 2');
-g_form.addOption('u_what_needed','other','Other');
 }
 
 // If the form is loading and it is not a new record, set the u_what_needed value to the
@@ -56,7 +55,7 @@ g_form.setValue('u_what_needed', whatneeded);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bf0099c8db0e2300656a9fd2ca96191a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>NeedIt Request Type Options</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
@@ -64,7 +63,7 @@ g_form.setValue('u_what_needed', whatneeded);
         <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
         <sys_update_name>sys_script_client_bf0099c8db0e2300656a9fd2ca96191a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 12:40:18</sys_updated_on>
+        <sys_updated_on>2018-12-12 11:53:48</sys_updated_on>
         <table>x_98929_needit_kin_need_table</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

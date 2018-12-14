@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_request_type" table="x_98929_needit_kin_need_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_string_1" table="x_98929_needit_kin_need_table">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Request type</column_label>
+        <column_label>email</column_label>
         <comments/>
         <create_roles/>
-        <default_value>legal</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -23,13 +23,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_request_type</element>
+        <element>u_string_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_98929_needit_kin_need_table</name>
         <next_element/>
@@ -48,16 +48,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 10:09:19</sys_created_on>
-        <sys_id>fb70400edb422300656a9fd2ca9619c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request type</sys_name>
+        <sys_created_on>2018-12-13 08:50:32</sys_created_on>
+        <sys_id>e7b83b16db522300656a9fd2ca961968</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>email</sys_name>
         <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
-        <sys_update_name>sys_dictionary_x_98929_needit_kin_need_table_u_request_type</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-11-29 09:51:45</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_98929_needit_kin_need_table_u_string_1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-13 08:54:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
