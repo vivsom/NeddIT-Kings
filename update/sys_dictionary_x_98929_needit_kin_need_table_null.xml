@@ -48,13 +48,13 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass/>
+        <sizeclass>9</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-20 07:09:09</sys_created_on>
-        <sys_id>30da643bdb522300656a9fd2ca961998</sys_id>
+        <sys_id>fc2889bbdb922300656a9fd2ca96195f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_98929_needit_kin_need_table</sys_name>
         <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
         <sys_update_name>sys_dictionary_x_98929_needit_kin_need_table_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-17 09:41:45</sys_updated_on>
+        <sys_updated_on>2018-12-17 11:49:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
