@@ -13,13 +13,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-17 12:33:06</sys_created_on>
-        <sys_id>be021933dbd22300656a9fd2ca9619d7</sys_id>
+        <sys_id>c3802c59db322300656a9fd2ca96194e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_98929_needit_kin_historic_needit_data</sys_name>
         <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
-        <sys_update_name>ua_table_licensing_config_be021933dbd22300656a9fd2ca9619d7</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_c3802c59db322300656a9fd2ca96194e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-17 12:33:06</sys_updated_on>
     </ua_table_licensing_config>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="7333826ddb722300656a9fd2ca9619a9" sys_domain="global" table="x_98929_needit_kin_needit_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-04 12:53:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f733826ddb722300656a9fd2ca9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_98929_needit_kin_needit_task" name="x_98929_needit_kin_needit_task" sys_domain="global" view="Default view">7333826ddb722300656a9fd2ca9619a9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_98929_needit_kin_needit_task" sys_domain="global" view="Default view">12b1cee1db722300656a9fd2ca961932</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-04 12:53:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-04 12:53:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f333826ddb722300656a9fd2ca9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_98929_needit_kin_needit_task" name="x_98929_needit_kin_needit_task" sys_domain="global" view="Default view">7333826ddb722300656a9fd2ca9619a9</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_98929_needit_kin_needit_task" sys_domain="global" view="Default view">7733826ddb722300656a9fd2ca9619a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-04 12:53:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_98929_needit_kin_needit_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-04 12:53:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7333826ddb722300656a9fd2ca9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_98929_needit_kin_needit_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7333826ddb722300656a9fd2ca9619a9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-04 12:53:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
