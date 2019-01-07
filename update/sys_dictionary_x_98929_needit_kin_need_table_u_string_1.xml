@@ -49,7 +49,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-13 08:50:32</sys_created_on>
-        <sys_id>03802c59db322300656a9fd2ca961929</sys_id>
+        <sys_id>07de97c2db322300656a9fd2ca9619f7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>email</sys_name>
         <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
         <sys_update_name>sys_dictionary_x_98929_needit_kin_need_table_u_string_1</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-01-03 11:03:28</sys_updated_on>
+        <sys_updated_on>2019-01-06 08:50:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
