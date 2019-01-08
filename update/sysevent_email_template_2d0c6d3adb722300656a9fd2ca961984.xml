@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_98929_needit_kin_needit_task</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Click here to close NeedIt Task ${number}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.closeneedittask</name>
+        <sms_alternate/>
+        <subject>Re: ${number} - please close NeedIt Task</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-08 08:25:13</sys_created_on>
+        <sys_id>2d0c6d3adb722300656a9fd2ca961984</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>mailto.closeneedittask</sys_name>
+        <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
+        <sys_update_name>sysevent_email_template_2d0c6d3adb722300656a9fd2ca961984</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-08 08:39:23</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script>email.subject.toLowerCase().indexOf('overdue needit task')&gt;=0</condition_script>
+        <description>Inbound Email Action</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Update NeedIt Task on Reply</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[// Add the inbound email body to the NeedIt Task record Work notes field
+	// then update the record in the database
+	current.work_notes = email.body_text;
+	current.update();]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-08 06:28:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4aa0953adb322300656a9fd2ca96190e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Update NeedIt Task on Reply</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
+        <sys_update_name>sysevent_in_email_action_4aa0953adb322300656a9fd2ca96190e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-08 06:59:03</sys_updated_on>
+        <table>x_98929_needit_kin_needit_task</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>
