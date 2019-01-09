@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>NeedIt Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>NeedIt Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">e8cad1555d121300651727c3e282e84b</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-01-08 08:45:45</sys_created_on>
+        <sys_id>5bf0fdfadb722300656a9fd2ca961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Task</sys_name>
+        <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
+        <sys_update_name>sys_wizard_answer_5bf0fdfadb722300656a9fd2ca961937</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-01-08 08:45:45</sys_updated_on>
+        <table/>
+        <target_url>x_98929_needit_kin_needit_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
