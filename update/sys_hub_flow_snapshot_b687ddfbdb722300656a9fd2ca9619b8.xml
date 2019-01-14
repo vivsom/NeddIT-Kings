@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <label_cache>[{"name":"Created or Updated_1.current.u_request_type","label":"Trigger➛NeedIT Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_98929_needit_kin_need_table","column_name":"u_request_type"},{"name":"Created_1.current","label":"Trigger➛NeedIT Record","reference":"x_98929_needit_kin_need_table","reference_display":"NeedIT","type":"reference","base_type":"reference"},{"name":"Created_1.current.number","label":"Trigger➛NeedIT Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_98929_needit_kin_need_table","column_name":"number"},{"name":"Created_1.current.assigned_to.name","label":"Trigger➛NeedIT Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"b1db1e7a-fe36-4427-b5a1-a6c880df9e88.record","label":"1➛NeedIT Record","reference":"x_98929_needit_kin_need_table","reference_display":"NeedIT Record"},{"name":"b1db1e7a-fe36-4427-b5a1-a6c880df9e88.record.u_requeste_for.manager","label":"1➛NeedIT Record➛Requested for➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"b1db1e7a-fe36-4427-b5a1-a6c880df9e88.table_name","label":"1➛NeedIT Table","reference":"x_98929_needit_kin_need_table","reference_display":"NeedIT Table"},{"name":"8eb9cd3e-67df-419b-af0d-96169b0573d1.approval_state","label":"2➛Approval State","reference_display":"Approval State"},{"name":"Created or Updated_1.current","label":"Trigger➛NeedIT Record","reference":"x_98929_needit_kin_need_table","reference_display":"NeedIT","type":"reference","base_type":"reference"},{"name":"27304b2f-0aba-4568-97da-c3d8842ebb71.record","label":"3.1➛NeedIT Record","reference":"x_98929_needit_kin_need_table","reference_display":"NeedIT Record"},{"name":"27304b2f-0aba-4568-97da-c3d8842ebb71.table_name","label":"3.1➛NeedIT Table","reference":"x_98929_needit_kin_need_table","reference_display":"NeedIT Table"},{"name":"Created or Updated_1.current.u_when_needed","label":"Trigger➛NeedIT Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_98929_needit_kin_need_table","column_name":"u_when_needed"}]</label_cache>
+        <name>NeedIt Fulfillment</name>
+        <parent_flow display_value="NeedIt Fulfillment">da74302fdbf62300656a9fd2ca9619a8</parent_flow>
+        <remote_trigger_id>2eaea8f3db322300656a9fd2ca9619be</remote_trigger_id>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-11 09:28:32</sys_created_on>
+        <sys_id>b687ddfbdb722300656a9fd2ca9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Fulfillment</sys_name>
+        <sys_package display_value="NeedIT-Kings" source="x_98929_needit_kin">38604987db312300656a9fd2ca9619ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIT-Kings">38604987db312300656a9fd2ca9619ed</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_b687ddfbdb722300656a9fd2ca9619b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-11 09:28:32</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
